@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,1325</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1314,1325</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>EnviaEmailCandidato_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -73,6 +73,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Altera as váriaveis do Html, anexa o arquivo e envia os emails.&#xA;" DisplayName="EnviaEmailCandidato" sap:VirtualizedContainerService.HintSize="426,1260" sap2010:WorkflowViewState.IdRef="Sequence_1">
